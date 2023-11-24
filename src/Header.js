@@ -99,7 +99,7 @@ function Header() {
                     <Carousel.Caption style={{ color: "black", position: "absolute" }}>
                         {/* <div className="centered"  > */}
 
-                        <h1><strong>The time table Creator Website</strong></h1>
+                        <h1><strong>IDAEWOR SAMUEL PROVIDENCE PSC1611621</strong></h1>
                         {/* </div> */}
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -114,7 +114,7 @@ function Header() {
                     />
 
                     <Carousel.Caption style={{ color: "black" }}>
-                        <h1><strong>The time table Creator Website</strong></h1>
+                        <h1><strong>IDAEWOR SAMUEL PROVIDENCE PSC1611621</strong></h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={1000}>
@@ -127,7 +127,7 @@ function Header() {
                     />
 
                     <Carousel.Caption style={{ color: "black" }}>
-                        <h1><strong>The time table Creator Website</strong></h1>
+                        <h1><strong>IDAEWOR SAMUEL PROVIDENCE PSC1611621</strong></h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={1000}>
@@ -140,7 +140,7 @@ function Header() {
                     />
 
                     <Carousel.Caption style={{ color: "black" }}>
-                        <h1><strong>The time table Creator Website</strong></h1>
+                        <h1><strong>IDAEWOR SAMUEL PROVIDENCE PSC1611621</strong></h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={1000}>
@@ -153,7 +153,7 @@ function Header() {
                     />
 
                     <Carousel.Caption style={{ color: "black" }}>
-                        <h1><strong>The time table Creator Website</strong></h1>
+                        <h1><strong>IDAEWOR SAMUEL PROVIDENCE PSC1611621</strong></h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={1000}>
@@ -166,7 +166,7 @@ function Header() {
                     />
 
                     <Carousel.Caption style={{ color: "black" }}>
-                        <h1><strong>The time table Creator Website</strong></h1>
+                        <h1><strong>IDAEWOR SAMUEL PROVIDENCE PSC1611621</strong></h1>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
