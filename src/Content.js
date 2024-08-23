@@ -36,7 +36,7 @@ function Content() {
                 <Container className="mt-5">
                     <Col md={{ span: 10, offset: 1 }}>
 
-                        <Jumbotron style={{ backgroundColor: "Lavender", borderStyle: "solid", borderWidth: "3px", borderColor: "DarkSlateGrey", color: "DarkSlateGrey" }}>
+                        <Jumbotron style={{ backgroundColor: "sky blue", borderStyle: "solid", borderWidth: "3px", borderColor: "black", color: "black" }}>
                             <h1 style={{ color: "black" }}><b><i>Getting started</i></b></h1>
                             <hr />
                             <hr />

@@ -47,7 +47,7 @@ function Header() {
                     className="mr-4"
                     height="50"
                     width="70"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV0Kt8i5gW1_qB6Zk__zKDiIXuNESWgwkUig&usqp=CAU"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ46w4cnq45S5-E6QI5UJzkX7qe-mMFBdqOA&s"
                 >
                 </Image>
                 <Navbar.Collapse id="responsive-navbar-nav" >
@@ -99,7 +99,7 @@ function Header() {
                     <Carousel.Caption style={{ color: "black", position: "absolute" }}>
                         {/* <div className="centered"  > */}
 
-                        <h1><strong>IDAEWOR SAMUEL PROVIDENCE PSC1611621</strong></h1>
+                        <h1><strong>Web-based Timetable</strong></h1>
                         {/* </div> */}
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -114,7 +114,7 @@ function Header() {
                     />
 
                     <Carousel.Caption style={{ color: "black" }}>
-                        <h1><strong>IDAEWOR SAMUEL PROVIDENCE PSC1611621</strong></h1>
+                        <h1><strong>Web-based Timetable</strong></h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={1000}>
@@ -127,7 +127,7 @@ function Header() {
                     />
 
                     <Carousel.Caption style={{ color: "black" }}>
-                        <h1><strong>IDAEWOR SAMUEL PROVIDENCE PSC1611621</strong></h1>
+                        <h1><strong>Web-based Timetable</strong></h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={1000}>
@@ -140,7 +140,7 @@ function Header() {
                     />
 
                     <Carousel.Caption style={{ color: "black" }}>
-                        <h1><strong>IDAEWOR SAMUEL PROVIDENCE PSC1611621</strong></h1>
+                        <h1><strong>Web-based Timetable</strong></h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={1000}>
@@ -153,7 +153,7 @@ function Header() {
                     />
 
                     <Carousel.Caption style={{ color: "black" }}>
-                        <h1><strong>IDAEWOR SAMUEL PROVIDENCE PSC1611621</strong></h1>
+                        <h1><strong>Web-based Timetable</strong></h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={1000}>
@@ -166,7 +166,7 @@ function Header() {
                     />
 
                     <Carousel.Caption style={{ color: "black" }}>
-                        <h1><strong>IDAEWOR SAMUEL PROVIDENCE PSC1611621</strong></h1>
+                        <h1><strong>Web-based Timetable</strong></h1>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

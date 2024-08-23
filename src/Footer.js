@@ -38,7 +38,7 @@ function Footer() {
                                 className="mr-auto"
                                 height="80"
                                 width="80"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV0Kt8i5gW1_qB6Zk__zKDiIXuNESWgwkUig&usqp=CAU"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ46w4cnq45S5-E6QI5UJzkX7qe-mMFBdqOA&s"
                             >
                             </Image>
                         </Row>

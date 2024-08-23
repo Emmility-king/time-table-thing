@@ -5,6 +5,18 @@ import Footer from './Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+const PrintButton = () => {
+    const handlePrint = () => {
+      window.print();
+    };
+  
+    return (
+      <button onClick={handlePrint}>
+        Print Timetable
+      </button>
+    );
+  };
+
 
 function App() {
 
