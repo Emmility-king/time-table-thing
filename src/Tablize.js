@@ -1,10 +1,10 @@
-import React, { useRef } from "react";
-import ReactToPrint from "react-to-print";
-
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Modal, Table } from 'react-bootstrap';
 
 function Tablize(props) {
+    // Add classroom names array
+    const classroomNames = ['Twin Lecture Hall', 'Smart Classroom', 'Seminar Hall', 'Tutorial Room', 'Lab 1'];
 
     let [day, setd] = React.useState(
         Array.from({ length: 50 }, v => (
@@ -46,8 +46,8 @@ function Tablize(props) {
     for (let i = 0; i < props.no_of_classes; i++) {
         back(i);
         datam.push(<div>
-            <h3>For Classroom {i + 1}</h3>
-            <Table striped bordered hover size="sm" responsive striped bordered hover variant="success">
+            <h3>{classroomNames[i] || `Classroom ${i + 1}`}</h3>
+            <Table striped bordered hover size="sm" responsive variant="success">
                 <thead>
                     <tr>
                         <th>#</th>
@@ -78,7 +78,7 @@ function Tablize(props) {
         </div>
         );
     }
-
+}
     return (
         <div>
             <Modal
