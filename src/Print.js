@@ -1,11 +1,11 @@
-import React from 'react';
-import PrintButton from './PrintButton'; // Ensure the path is correct
+import React from "react";
+import PrintButton from "./PrintButton"; // Ensure the path is correct
 
 const Timetable = () => {
   return (
     <div>
       <h1>My Timetable</h1>
-      
+
       {/* Your timetable structure */}
       <div className="timetable">
         <table>
@@ -32,7 +32,7 @@ const Timetable = () => {
           </tbody>
         </table>
       </div>
-      
+
       {/* Use the PrintButton component */}
       <PrintButton />
     </div>
