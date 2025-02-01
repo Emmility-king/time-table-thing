@@ -32,6 +32,6 @@ import { Modal, Table } from 'react-bootstrap';
         );
     }
 
-    export { TablizeModal };
+    export default TablizeModal;
 
 
