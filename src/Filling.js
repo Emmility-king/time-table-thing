@@ -168,16 +168,14 @@ function Filling() {
         as="select"
         defaultValue="0"
         value={classroomNames}
-                onChange={(e) => {
-                  setthem2(e.target.value);
-                  setClassroomNames(e.target.value);
+                                    onChange={(e) => {
+      setthem2(e.target.value);
+      setClassroomNames(e.target.value);
 
-                  resetAllHours();
-                  resetOnlyHours();
-                  setModalShow2(true);
-                  setAllow(false);
-                }}
-      >
+      // Remove the call to resetAllHours() as it's not defined
+      setModalShow2(true);
+      setAllow(false);
+}}      >
         {opt}
       </Form.Control>
       {/* Rest of the JSX remains the same */}
