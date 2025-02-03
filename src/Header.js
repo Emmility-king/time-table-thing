@@ -140,7 +140,7 @@ function Header() {
             {/* <div className="centered"  > */}
 
             <h1>
-              <strong>Web-based Timetable</strong>
+              <strong>Web Based Allocation System for Examination In Ambrose Alli University Ekpoma Edo State</strong>
             </h1>
             {/* </div> */}
           </Carousel.Caption>
@@ -157,7 +157,7 @@ function Header() {
 
           <Carousel.Caption style={{ color: "black" }}>
             <h1>
-              <strong>Web-based Timetable</strong>
+              <strong>Web Based Allocation System for Examination In Ambrose Alli University Ekpoma Edo State</strong>
             </h1>
           </Carousel.Caption>
         </Carousel.Item>
@@ -172,7 +172,7 @@ function Header() {
 
           <Carousel.Caption style={{ color: "black" }}>
             <h1>
-              <strong>Web-based Timetable</strong>
+              <strong>WWeb Based Allocation System for Examination In Ambrose Alli University Ekpoma Edo State</strong>
             </h1>
           </Carousel.Caption>
         </Carousel.Item>
@@ -187,7 +187,7 @@ function Header() {
 
           <Carousel.Caption style={{ color: "black" }}>
             <h1>
-              <strong>Web-based Timetable</strong>
+              <strong>Web Based Allocation System for Examination In Ambrose Alli University Ekpoma Edo State</strong>
             </h1>
           </Carousel.Caption>
         </Carousel.Item>
@@ -202,7 +202,7 @@ function Header() {
 
           <Carousel.Caption style={{ color: "black" }}>
             <h1>
-              <strong>Web-based Timetable</strong>
+              <strong>Web Based Allocation System for Examination In Ambrose Alli University Ekpoma Edo State</strong>
             </h1>
           </Carousel.Caption>
         </Carousel.Item>
@@ -217,7 +217,7 @@ function Header() {
 
           <Carousel.Caption style={{ color: "black" }}>
             <h1>
-              <strong>Web-based Timetable</strong>
+              <strong>Web Based Allocation System for Examination In Ambrose Alli University Ekpoma Edo State</strong>
             </h1>
           </Carousel.Caption>
         </Carousel.Item>
