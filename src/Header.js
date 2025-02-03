@@ -172,7 +172,7 @@ function Header() {
 
           <Carousel.Caption style={{ color: "black" }}>
             <h1>
-              <strong>Web Based Allocation System for Examination In Ambrose Alli University Ekpoma Edo State</strong>
+              <strong>WWeb Based Allocation System for Examination In Ambrose Alli University Ekpoma Edo State</strong>
             </h1>
           </Carousel.Caption>
         </Carousel.Item>
