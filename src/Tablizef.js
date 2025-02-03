@@ -1,33 +1,40 @@
 import React, { useRef } from "react";
 import ReactToPrint from "react-to-print";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Modal, Table } from "react-bootstrap";
 
 const Tablizef = (props) => {
   const PrintRef = useRef();
-  let [day, setd] = React.useState(
+  const [day, setDay] = React.useState(
     Array.from({ length: 50 }, (v) =>
       Array.from({ length: 50 }, (v) =>
-        Array.from({ length: 50 }, (v) => {
-          <div></div>;
-        })
-      )
+        Array.from({ length: 50 }, (v) => (
+          <div></div>
+        ))      )
     )
   );
 
   const datam = [];
   const days = ["Mon", "Tues", "Wed", "Thur", "Fri", "Sat"];
+  
+  const classroomNames = [
+    "Twin lecture hall",
+    "TMA hall",
+    "NLT hall",
+    "Hall N",
+    "Hall C"
+  ];
 
   function back(i) {
-    day[i] = Array.from({ length: 50 }, (v) =>
-      Array.from({ length: 50 }, (v) => {
-        <div></div>;
-      })
+    const newDay = [...day];
+    newDay[i] = Array.from({ length: 50 }, (v) =>
+      Array.from({ length: 50 }, (v) => (
+        <div></div>
+      ))
     );
     for (let j = 0; j < props.no_of_days; j++) {
       let p = 0;
-      day[i][j].push(
+      newDay[i][j].push(
         <td>
           <center>{days[j]}</center>
         </td>
@@ -38,7 +45,7 @@ const Tablizef = (props) => {
             for (p; p < k; p++) {
               if (props.no_of_Lectures % 2 !== 0) {
                 if (p === Math.floor((props.no_of_Lectures - 1) / 2)) {
-                  day[i][j].push(
+                  newDay[i][j].push(
                     <td>
                       <center> --- </center>
                     </td>
@@ -46,7 +53,7 @@ const Tablizef = (props) => {
                 }
               }
 
-              day[i][j].push(
+              newDay[i][j].push(
                 <td>
                   <center></center>
                 </td>
@@ -54,7 +61,7 @@ const Tablizef = (props) => {
 
               if (props.no_of_Lectures % 2 === 0) {
                 if (p === Math.floor((props.no_of_Lectures - 1) / 2)) {
-                  day[i][j].push(
+                  newDay[i][j].push(
                     <td>
                       <center> --- </center>
                     </td>
@@ -65,7 +72,7 @@ const Tablizef = (props) => {
 
             if (props.no_of_Lectures % 2 !== 0) {
               if (p === Math.floor((props.no_of_Lectures - 1) / 2)) {
-                day[i][j].push(
+                newDay[i][j].push(
                   <td>
                     <center> --- </center>
                   </td>
@@ -73,16 +80,16 @@ const Tablizef = (props) => {
               }
             }
 
-            day[i][j].push(
+            newDay[i][j].push(
               <td>
                 <center>
-                  Classroom {m + 1} <br />
+                  {classroomNames[m]} <br />
                 </center>
               </td>
             );
             if (props.no_of_Lectures % 2 === 0) {
               if (p === Math.floor((props.no_of_Lectures - 1) / 2)) {
-                day[i][j].push(
+                newDay[i][j].push(
                   <td>
                     <center> --- </center>
                   </td>
@@ -92,14 +99,12 @@ const Tablizef = (props) => {
             p++;
             break;
           }
-          // else
         }
       }
-      // day[i][j].push(<td><center>{p}</center></td>);
       for (p; p < props.no_of_Lectures; p++) {
         if (props.no_of_Lectures % 2 !== 0) {
           if (p === Math.floor((props.no_of_Lectures - 1) / 2)) {
-            day[i][j].push(
+            newDay[i][j].push(
               <td>
                 <center> --- </center>
               </td>
@@ -107,7 +112,7 @@ const Tablizef = (props) => {
           }
         }
 
-        day[i][j].push(
+        newDay[i][j].push(
           <td>
             <center></center>
           </td>
@@ -115,7 +120,7 @@ const Tablizef = (props) => {
 
         if (props.no_of_Lectures % 2 === 0) {
           if (p === Math.floor((props.no_of_Lectures - 1) / 2)) {
-            day[i][j].push(
+            newDay[i][j].push(
               <td>
                 <center> --- </center>
               </td>
@@ -124,6 +129,7 @@ const Tablizef = (props) => {
         }
       }
     }
+    setDay(newDay);
   }
 
   for (let i = 0; i < props.no_of_faculties; i++) {
